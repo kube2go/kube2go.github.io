@@ -1,5 +1,11 @@
-.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{color:rgba(255,255,255,.8)}
-.navbar-custom .nav li a{color:#00000;padding:20px;    font-family: Avenir;
+.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{
+  color:rgba(255,255,255,.8)
+}
+
+.navbar-custom .nav li a{
+    color:#00000;
+    padding:20px;
+    font-family: Avenir,sans-serif;
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
@@ -8,8 +14,12 @@
     letter-spacing: normal;
     text-align: right;
     color: #000000;
-    padding-top: 10px;}
-.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{color:#000000;font-weight: 600;}}
+    padding-top: 10px;
+  }
+
+.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{
+  color:#000000;font-weight: 600;
+}
 
 .navbar-custom .navbar-brand a{
     color: #000000;
@@ -44,8 +54,12 @@
     margin: 10px 0 0;
     color:  #000000;
 }
+.brandImage2 {
+    width: 40px;
+    padding-bottom: 5px;
+}
 #brandName2 {
-    font-family: Avenir;
+    font-family: Avenir,sans-serif;
     font-size: 25px;
     font-weight: normal;
     font-style: normal;
