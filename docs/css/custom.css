@@ -1,0 +1,94 @@
+.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{color:rgba(255,255,255,.8)}
+.navbar-custom .nav li a{color:#00000;padding:20px;    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+    padding-top: 10px;}
+.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{color:#000000;font-weight: 600;}}
+
+.navbar-custom .navbar-brand a{
+    color: #000000;
+    padding: 20px;
+}
+
+.navbar-header .navbar-brand {
+  color: #000000;
+  padding: 20px;
+}
+
+.intro-header .site-heading h1{
+    padding: 100px 0 50px;
+    color: #000000;
+}
+
+.intro-header .post-heading {
+    padding: 100px 0 50px;
+    color: #000000;
+}
+
+.intro-header .post-heading .meta a {
+    color: #337ab7;
+}
+
+.subheading {
+    font-size: 24px;
+    line-height: 1.1;
+    display: block;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    margin: 10px 0 0;
+    color:  #000000;
+}
+#brandName2 {
+    font-family: Avenir;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.5px;
+    text-align: left;
+    color: white;
+}
+#footerContainer {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    bottom: 0px;
+    padding-top: 30px;
+    width: 100%;
+    height: 260px;
+    background-color: #606060;
+}
+
+.social-container2 {
+    padding-left: 55px;
+}
+
+.social-logo {
+    padding-top: 30px;
+    padding-right: 15px;
+    width: 50px;
+}
+
+#leftFooter {
+    width: 350px;
+}
+
+#midFooter {
+    width: 250px;
+    color: white;
+}
+
+#midFooter > p {
+    /*margin-bottom: 0px;*/
+}
+
+#rightFooter{
+    color:white;
+}

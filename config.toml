@@ -1,0 +1,43 @@
+languageCode = "en-us"
+title = "KUBE2GO.io Blog"
+baseURL = "http://blog.kube2go.io/"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
+googleAnalytics = "UA-51448026-6" # delete or comment to disable Google Analytics JS generation
+disqusShortname = "kube2go" #delete or comment to disable Disqus comments
+publishDir = "docs"
+
+[author]
+  name = "KUBE2GO Team"
+
+[params]
+  DateForm = "Mon, Mar 13, 2017"
+  Description = "KUBE2GO.io Blog"
+  Author = "KUBE2GO Team"
+  email = "info@kube2go.io" #Remove this line if you would prefer not to use an email button in the footer.
+  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
+  showReadTime = true #set to false to exclude read time from header of post
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/kube2go"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/kube2go"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/kube2go"
+
+[[menu.main]]
+  name = "Home"
+  url = "https://kube2go.io/"
+  weight = -200
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  weight = -180
+[[menu.main]]
+  name = "FAQs"
+  url = "https://kube2go.io/faq.html"
+  weight = -160
