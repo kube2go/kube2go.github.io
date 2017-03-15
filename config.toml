@@ -6,7 +6,7 @@ paginate = 10
 theme = "startbootstrap-clean-blog-copy"
 googleAnalytics = "UA-51448026-6" # delete or comment to disable Google Analytics JS generation
 disqusShortname = "kube2go" #delete or comment to disable Disqus comments
-publishDir = "docs"
+publishDir = "."
 
 [author]
   name = "KUBE2GO Team"
