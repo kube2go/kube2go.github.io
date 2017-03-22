@@ -5,7 +5,7 @@ tags = ["kubernetes", "About"]
 date = "2017-03-13T11:59:10-07:00"
 title = "Announcing KUBE2GO"
 comments = true
-draft = false
+draft = true
 description = ""
 
 +++
