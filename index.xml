@@ -6,32 +6,7 @@
     <description>Recent content on KUBE2GO.io Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Mar 2017 11:59:10 -0700</lastBuildDate>
     <atom:link href="http://blog.kube2go.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Announcing KUBE2GO</title>
-      <link>http://blog.kube2go.io/post/about/</link>
-      <pubDate>Mon, 13 Mar 2017 11:59:10 -0700</pubDate>
-      
-      <guid>http://blog.kube2go.io/post/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;kube2go-kubernetes-anywhere&#34;&gt;KUBE2GO - Kubernetes Anywhere&lt;/h1&gt;
-
-&lt;p&gt;Over the last couple of years, Kubernetes has risen to be the ‘THE’ container orchestration engine. It is great to see all the interest and all the work that has gone into making Kubernetes successful.  As part of the effort to bring Kubernetes to the masses, we decided to make Kubernetes easily available on public cloud.&lt;/p&gt;
-
-&lt;p&gt;We are glad to announce &lt;a href=&#34;https://kube2go.io&#34;&gt;https://kube2go.io&lt;/a&gt;, the easiest way to run Kubernetes clusters on public clouds of your choice. Simply sign in using a desired username/password, once you are registered, KUBE2GO will be able to create highly available (optional feature) clusters on AWS, GCE (future) or Azure(future). Make sure to have the AWS access and secret key handy before you register. Once the cluster is created you can:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;View the &lt;a href=&#34;https://kubernetes.io/docs/user-guide/ui/&#34;&gt;Dashboard&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Download kubeconfig for &lt;a href=&#34;https://kubernetes.io/docs/user-guide/kubectl-overview/&#34;&gt;kubectl&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Simply launch a CLI right from the web-browser.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is a small start and we hope to bring in more features with the introduction of &lt;a href=&#34;https://github.com/helm/&#34;&gt;“Helm”&lt;/a&gt; and other interesting projects that would help you develop application faster. In the meantime, please let us know how we are doing at info@kube2go.io&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
