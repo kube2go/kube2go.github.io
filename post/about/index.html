@@ -2,7 +2,6 @@
 <html lang="en-us">
 
 <head>
-	<meta name="generator" content="Hugo 0.19" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>KUBE2GO.io Blog -- KUBE2GO.io Blog</title>
+    <title>Announcing KUBE2GO -- KUBE2GO.io Blog</title>
 
-    
-    <link href="http://blog.kube2go.io/index.xml" rel="alternate" type="application/rss+xml" title="KUBE2GO.io Blog" />
-    <link href="http://blog.kube2go.io/index.xml" rel="feed" type="application/rss+xml" title="KUBE2GO.io Blog" />
     
 
     
@@ -77,33 +73,17 @@
 
 
     
-    <header class="intro-header" style="background-image: url('http://blog.kube2go.io//img/home-bg.jpg')">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-           <div class="site-heading">
-             <h1>KUBE2GO.io Blog</h1>
-             <hr class="small">
-             <span class="subheading">KUBE2GO.io Blog</span>
-           </div>
-         </div>
-       </div>
-     </div>
-    </header>
-
     
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          
-          
-                             <div class="post-preview">
-                 <a href="http://blog.kube2go.io/post/about/">
-                      <h2 class="post-title">Announcing KUBE2GO</h2>
-                      <h3 class="post-subtitle">Announcing KUBE2GO the easiest way to run your cluster</h3>
-                    </a>
-                    <p class="post-meta">
-                      
+    <header class="intro-header" style="background-image: url('http://blog.kube2go.io///img/about-bg.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>Announcing KUBE2GO</h1>
+               <h2 class="subheading">Announcing KUBE2GO the easiest way to run your cluster</h2>
+               <span class="meta">
+                 
   A 2 minute read,
 
 Posted by <a href="#">KUBE2GO Team</a> on Mon, Mar 311, 13037
@@ -113,20 +93,66 @@ In <a href="http://blog.kube2go.io/categories/development">Development</a>, <a h
 <br />
 Tags <a href="http://blog.kube2go.io/tags/kubernetes">kubernetes</a>, <a href="http://blog.kube2go.io/tags/about">about</a>
 
-                  </p>
-                </div>
-                <hr>
-
-          
-          
-          <ul class="pager">
-            <li class="next">
-              <a href="http://blog.kube2go.io//post/">Older Posts &rarr;</a>
-            </li>
-          </ul>
+               </span>
+             </div>
+           </div>
         </div>
       </div>
-    </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+
+<p>Announcing Kube2go</p>
+
+<p>At Platform9, we have not only made containers a core part of our overall product strategy,
+but have also gone all-in with Kubernetes as the container orchestration framework of choice.
+Over the last couple of years, as Kubernetes has risen to become the most popular container
+orchestration engine, it has been great to see the community come together and work towards making it successful.
+As our own small effort to aid this growth, we are very proud, today, to announce Kube2Go to the Kubernetes
+community – the easiest way to run Kubernetes clusters on any major public cloud! Simply sign up / register, and quickly create highly available clusters on AWS, with support for GCE and Azure coming in future updates. Make sure to have the AWS access and secret key handy before you register. Once the cluster is created you can:</p>
+
+<h4 id="download-kubeconfig-for-kubectl-https-kubernetes-io-docs-user-guide-kubectl-overview">Download kubeconfig for <a href="https://kubernetes.io/docs/user-guide/kubectl-overview/">kubectl</a></h4>
+
+<p><img src="http://blog.kube2go.io/images/kubernetes-pf9.png" alt="Kube2go Dashboard" /></p>
+
+<h4 id="view-the-dashboard-https-kubernetes-io-docs-user-guide-ui">View the <a href="https://kubernetes.io/docs/user-guide/ui/">Dashboard</a>:</h4>
+
+<p><img src="http://blog.kube2go.io/images/kubernetes-dashboard.png" alt="Kubernetes Dashboard" /></p>
+
+<h4 id="simply-launch-a-cli-right-from-the-web-browser">Simply launch a CLI right from the web-browser:</h4>
+
+<p><img src="http://blog.kube2go.io/images/kubernetes-webcli.png" alt="Kubernetes Dashboard" /></p>
+
+<p>In this first incarnation, we’re focussing on making cluster creation and usage drop-dead simple for our users. As we continue to iterate, along with adding more cloud providers, our focus will be on making the consumption of Kubernetes clusters easier, by simplifying application development using <a href="https://github.com/helm/">“Helm”</a> charts and even integrating serverless functions-as-a-service via <a href="http://fission.io">Fission</a>.
+To top it all of, this is completely free for up to five nodes within your cluster! So try out Kube2Go today, and let us know what you think at info@kube2go.io</p>
+
+                  
+   <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'kube2go';
+    var disqus_identifier = 'http:\/\/blog.kube2go.io\/post\/about\/';
+    var disqus_title = 'Announcing KUBE2GO';
+    var disqus_url = 'http:\/\/blog.kube2go.io\/post\/about\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                </div>
+            </div>
+        </div>
+    </article>
 
 
     <hr>
