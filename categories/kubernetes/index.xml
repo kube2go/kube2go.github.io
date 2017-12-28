@@ -6,10 +6,21 @@
     <description>Recent content in Kubernetes on KUBE2GO.io Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Mar 2017 11:59:10 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 28 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://blog.kube2go.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Moving Kube2go</title>
+      <link>http://blog.kube2go.io/post/retirement/</link>
+      <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.kube2go.io/post/retirement/</guid>
+      <description>Kube2go Moving to Sandbox
+Thanks for all the support you have given tot Kube2go for the better part of the year. With Kube2go we saw interest from all kinds of developers and enterprises alike and received valuable feedback. As part of our efforts to make customer experience better we are consolidating Platform9&amp;rsquo;s Sandbox (https://platform9.com/sandbox/) and Kube2go into one system and retiring Kube2go as an independent service.
+We hope Platform9 Sandbox would offer you much more than Kube2go.</description>
+    </item>
     
     <item>
       <title>Announcing KUBE2GO</title>

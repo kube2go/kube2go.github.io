@@ -12,7 +12,7 @@ publishDir = "."
   name = "KUBE2GO Team"
 
 [params]
-  DateForm = "Mon, Mar 13, 2017"
+  DateForm = "Jan 2 2006"
   Description = "KUBE2GO.io Blog"
   Author = "KUBE2GO Team"
   email = "info@kube2go.io" #Remove this line if you would prefer not to use an email button in the footer.
