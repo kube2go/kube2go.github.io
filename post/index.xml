@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on KUBE2GO.io Blog</title>
-    <link>http://blog.kube2go.io/post/index.xml</link>
+    <link>http://blog.kube2go.io/post/</link>
     <description>Recent content in Posts on KUBE2GO.io Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Mar 2017 11:59:10 -0700</lastBuildDate>
-    <atom:link href="http://blog.kube2go.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://blog.kube2go.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Announcing KUBE2GO</title>
@@ -15,32 +17,8 @@
       <pubDate>Mon, 13 Mar 2017 11:59:10 -0700</pubDate>
       
       <guid>http://blog.kube2go.io/post/about/</guid>
-      <description>
-
-&lt;p&gt;Announcing Kube2go&lt;/p&gt;
-
-&lt;p&gt;At Platform9, we have not only made containers a core part of our overall product strategy,
-but have also gone all-in with Kubernetes as the container orchestration framework of choice.
-Over the last couple of years, as Kubernetes has risen to become the most popular container
-orchestration engine, it has been great to see the community come together and work towards making it successful.
-As our own small effort to aid this growth, we are very proud, today, to announce Kube2Go to the Kubernetes
-community – the easiest way to run Kubernetes clusters on any major public cloud! Simply sign up / register, and quickly create highly available clusters on AWS, with support for GCE and Azure coming in future updates. Make sure to have the AWS access and secret key handy before you register. Once the cluster is created you can:&lt;/p&gt;
-
-&lt;h4 id=&#34;download-kubeconfig-for-kubectl-https-kubernetes-io-docs-user-guide-kubectl-overview&#34;&gt;Download kubeconfig for &lt;a href=&#34;https://kubernetes.io/docs/user-guide/kubectl-overview/&#34;&gt;kubectl&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.kube2go.io/images/kubernetes-pf9.png&#34; alt=&#34;Kube2go Dashboard&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;view-the-dashboard-https-kubernetes-io-docs-user-guide-ui&#34;&gt;View the &lt;a href=&#34;https://kubernetes.io/docs/user-guide/ui/&#34;&gt;Dashboard&lt;/a&gt;:&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.kube2go.io/images/kubernetes-dashboard.png&#34; alt=&#34;Kubernetes Dashboard&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;simply-launch-a-cli-right-from-the-web-browser&#34;&gt;Simply launch a CLI right from the web-browser:&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.kube2go.io/images/kubernetes-webcli.png&#34; alt=&#34;Kubernetes Dashboard&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In this first incarnation, we’re focussing on making cluster creation and usage drop-dead simple for our users. As we continue to iterate, along with adding more cloud providers, our focus will be on making the consumption of Kubernetes clusters easier, by simplifying application development using &lt;a href=&#34;https://github.com/helm/&#34;&gt;“Helm”&lt;/a&gt; charts and even integrating serverless functions-as-a-service via &lt;a href=&#34;http://fission.io&#34;&gt;Fission&lt;/a&gt;.
-To top it all of, this is completely free for up to five nodes within your cluster! So try out Kube2Go today, and let us know what you think at info@kube2go.io&lt;/p&gt;
-</description>
+      <description>Announcing Kube2go
+At Platform9, we have not only made containers a core part of our overall product strategy, but have also gone all-in with Kubernetes as the container orchestration framework of choice. Over the last couple of years, as Kubernetes has risen to become the most popular container orchestration engine, it has been great to see the community come together and work towards making it successful. As our own small effort to aid this growth, we are very proud, today, to announce Kube2Go to the Kubernetes community – the easiest way to run Kubernetes clusters on any major public cloud!</description>
     </item>
     
   </channel>
