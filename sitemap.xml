@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.kube2go.io/post/retirement/</loc>
+    <lastmod>2017-12-28T10:23:04-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.kube2go.io/post/about/</loc>
     <lastmod>2017-03-13T11:59:10-07:00</lastmod>
   </url>
@@ -26,6 +31,12 @@
   
   <url>
     <loc>http://blog.kube2go.io/</loc>
+    <lastmod>2017-12-28T10:23:04-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.kube2go.io/tags/kubernetes/</loc>
     <lastmod>2017-03-13T11:59:10-07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -37,14 +48,8 @@
   </url>
   
   <url>
-    <loc>http://blog.kube2go.io/tags/kubernetes/</loc>
-    <lastmod>2017-03-13T11:59:10-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.kube2go.io/post/</loc>
-    <lastmod>2017-03-13T11:59:10-07:00</lastmod>
+    <lastmod>2017-12-28T10:23:04-08:00</lastmod>
     <priority>0</priority>
   </url>
   
